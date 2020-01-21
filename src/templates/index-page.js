@@ -35,7 +35,8 @@ export const IndexPageTemplate = ({
             <div className="row">
                 <div className="col-12 col-md-8 col-lg-8 col-xl-8">
                     <div className="banner-image-section">
-                        <img src = {image} alt="" className="banner-image"/>
+                        <img src = {!!image.childImageSharp ? image.childImageSharp.fluid.src : image
+} alt="" className="banner-image"/>
                     </div>
                 </div>
                 <div className="col-12 col-md-4 col-lg-4 col-xl-4">
