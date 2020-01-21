@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.logo {
+    img{
+        width: 180px;
+        height: 85px;
+        position: relative;
+        left: -34px;
+    
+    }
+}
+.selection_Of_examination{
+    background-color: #f7931e!important;
+    padding: 5px 0;
+}
+.main-content{
+    width: 100%;
+    min-height: calc(100vh - 190px);
+    background: #012B55;
+    opacity: .9;
+    .banner-image-section{
+        margin-top: 3rem;
+    }
+    .banner-image{
+        width: 100%;
+    }
+    .select-test-Form{
+        margin-top: 3rem;
+    }
+
+}
+
+
+.theme-text-color{
+    color: #f7931e!important;
+}
+.bg-blue{
+    background-color: #337ab7!important;
+    border-color: #2e6da4!important;
+    color: #fff!important;
+    box-shadow: none!important
+}
+.welcome-title{
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+.welcome-text{
+    font-size: 1.2rem;
+    letter-spacing: .1em;
+}
+.bg-light-gray{
+    background-color: #eeeeee;
+}
+.box-shadow-none{
+    box-shadow: none!important;
+}
+.footer{
+    background-color: #eeeeee;
+}
